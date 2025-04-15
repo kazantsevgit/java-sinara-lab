@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: start
+
+start-config:
+  name: "dev"
+  values: ["dev-1", "dev-2"]
+
+  env_var: ${ENV_VAR:default}
